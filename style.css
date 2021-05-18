@@ -1,0 +1,110 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+/* google font  */
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+}
+h1,h2.h3,h4,h5,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+/* .myNav{
+    background-color: rgba(0, 0, 0, 0.164);
+   
+} */
+.header-section{
+    background-image: url(image/web-development.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nav-link{
+    margin-right: 10px;
+    /* padding: 5px 10px; */
+    border-radius: 5px;
+    transition: 0.3s;
+    text-align: center;
+}
+.nav-link:hover{
+    /* background-color: rgb(38, 109, 240); */
+    transform: scale(1.1)
+}
+.banner-container{
+    height: 100vh;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+}
+.banner-container h1{
+    font-size: 60px;
+    padding-top: 75px;
+}
+.fa-caret-square-down{
+    font-size: 30px;
+    outline:none;
+    border:none;
+    width: 20px;
+}
+/* Header ends  */
+
+.featuresWrapper{
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+.features-col{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: 0.4s;
+}
+.features-col:hover{
+    /* transform : scale(1.1); */
+    box-shadow: 2px 6px 5px #666;
+}
+.icon-style{
+    background-color: #bb0aac;
+    color: #fff;
+    padding: 15px;
+}
+/* Features End  */
+
+hr.hr-style {
+    width: 12%;
+    border-bottom: 5px dotted black;
+    background: none;
+    margin: auto;
+}
+#about-me{
+    padding: 4% 10%;
+    background-color: #e8ded2;
+}
+
+#about-me a{
+    font-size: 0.9rem;
+    color: red;
+    font-weight: bold;
+    transition: 0.2s;
+}
+#about-me a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#about-me p{
+    font-size: 0.9rem;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.star i {
+    width: 20px;
+}
+/* |About Me End  */

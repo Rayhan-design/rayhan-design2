@@ -1,0 +1,17 @@
+.header img{
+    width: 160px;
+    height: 80px;
+}
+.header{
+    background: rgb(94, 161, 238);
+}
+.header ul{}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    padding: 20px 30px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
